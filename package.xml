@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>dummy_c_plugins</name>
+  <version>1.0.0</version>
+  <description>Test package</description>
+
+  <license>Apache 2.0</license>
+  <author email="marc.bestmann@dlr.de">Marc Bestmann</author>
+  <maintainer email="marc.bestmann@dlr.de">Marc Bestmann</maintainer>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>tf2_eigen</depend>
+  <depend>interactive_markers</depend>
+  <depend>moveit_core</depend>
+  <depend>moveit_msgs</depend>
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>reach</depend>
+  <depend>sensor_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>xacro</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
